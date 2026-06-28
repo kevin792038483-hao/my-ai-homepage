@@ -132,8 +132,15 @@
   <li>下一步：继续升级页面，并学习 Codex</li>
 </ul>
 
-  <!-- 这一行是一个按钮 -->
- <button onclick="alert('太棒了！你已经开始学习 AI 了！')">今天开始学习 AI</button>
+ <p id="message"></p>
+
+<button onclick="showMessage()">今天开始学习 AI</button>
+
+<script>
+  function showMessage() {
+    document.getElementById("message").innerText = "今天我又完成了一个 AI 学习任务！";
+  }
+</script>
 
 </div>
 
