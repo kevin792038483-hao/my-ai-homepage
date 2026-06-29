@@ -94,3 +94,5 @@ https://kevin792038483-hao.github.io/my-ai-homepage/
 这是我的第一个 AI 学习项目。
 
 虽然它还很简单，但它记录了我从零开始学习 AI、代码和 GitHub 的过程。
+
+我正在学习 Pull Request 工作流。
