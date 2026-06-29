@@ -1,0 +1,67 @@
+/* 下面这些代码负责网页的样子，比如颜色、居中、卡片、按钮 */
+
+body {
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  text-align: center;
+  background-color: #f3f6ff;
+  padding: 50px;
+}
+
+/* 设置中间白色大卡片 */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* 设置每一个内容小卡片 */
+.section {
+  background-color: #f8faff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e1e8ff;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #224488;
+}
+
+h1 {
+  color: #3366cc;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* 设置按钮点击后出现的提示文字 */
+#message {
+  color: #3366cc;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  margin: 10px auto 30px;
+}
+
+/* 设置按钮的样子 */
+button {
+  display: block;
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 30px auto;
+  cursor: pointer;
+}
