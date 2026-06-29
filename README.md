@@ -96,3 +96,5 @@ https://kevin792038483-hao.github.io/my-ai-homepage/
 虽然它还很简单，但它记录了我从零开始学习 AI、代码和 GitHub 的过程。
 
 我正在学习 Pull Request 工作流。
+
+我已经开始学习使用 GitHub Desktop 管理本地仓库。
