@@ -16,7 +16,12 @@
   <!-- 这一行是网页标题，会显示在浏览器标签页上 -->
   <title>我的 AI 学习主页</title>
 
+  
 <style>
+
+/* 下面这些代码负责网页的样子，比如颜色、居中、卡片、按钮 */
+
+
   body {
     font-family: Arial, "Microsoft YaHei", sans-serif;
     text-align: center;
@@ -24,6 +29,7 @@
     padding: 50px;
   }
 
+  /* 设置中间白色大卡片 */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -33,6 +39,7 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
+  /* 设置每一个内容小卡片 */
 .section {
   background-color: #f8faff;
   margin: 20px 0;
@@ -54,6 +61,7 @@
     font-size: 18px;
   }
 
+  /* 设置按钮点击后出现的提示文字 */
 #message {
   color: #3366cc;
   font-weight: bold;
@@ -67,6 +75,7 @@
   margin: 10px auto 30px;
 }
 
+  /* 设置按钮的样子 */
  button {
   display: block;
   background-color: #3366cc;
@@ -80,10 +89,12 @@
 }
 </style>
 
+
 <!-- 这一行表示网页的“头部信息”结束 -->
 </head>
 
 <!-- 这一行表示网页身体部分开始，真正显示给用户看的内容都放在这里 -->
+
 <body>
 
 <div class="container">
@@ -171,11 +182,12 @@
 <button onclick="showMessage()">今天开始学习 AI</button>
 
 <script>
+  // 这个函数负责在点击按钮后显示学习提示
   function showMessage() {
+    // 找到 id 叫 message 的位置，并把提示文字放进去
     document.getElementById("message").innerText = "✅ 今天我又完成了一个 AI 学习任务！";
   }
 </script>
-
 </div>
 
 <!-- 这一行表示网页身体部分结束 -->
