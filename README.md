@@ -98,3 +98,5 @@ https://kevin792038483-hao.github.io/my-ai-homepage/
 我正在学习 Pull Request 工作流。
 
 我已经开始学习使用 GitHub Desktop 管理本地仓库。
+
+我正在学习用 GitHub Desktop 创建分支和 Pull Request。
